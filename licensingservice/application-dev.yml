@@ -1,5 +1,5 @@
 tracer:
-  property: "{cipher}04169a67270edd5343cb9535654622fe2e6f2db170fbf378c5b8c9c001da5304"
+  property: "{cipher}c64d8dc9e32dadc8359b2bf8d4cb8cf07f93f30d618070ce032060525d3abb61"
 spring:
   jpa:
     show-sql: true
