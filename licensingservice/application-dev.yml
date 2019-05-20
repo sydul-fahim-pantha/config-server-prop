@@ -1,0 +1,19 @@
+tracer:
+  property: DEV
+spring:
+  jpa:
+    show-sql: true
+    database: POSTGRESQL
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    platform:  postgres
+    url: jdbc:postgresql://database:5432/eagle_eye_local
+    username: postgres
+    password: p0stgr@s
+    testWhileIdle: true
+    validationQuery: SELECT 1
+  database:
+    driverClassName: org.postgresql.Driver
+    
